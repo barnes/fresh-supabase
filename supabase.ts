@@ -1,5 +1,5 @@
 //import { supabaseClient } from "supabase";
-import { createClient } from "https://esm.sh/@supabase/supabase-js@1.35.4"
+import { createClient } from "supabase"
 import { config } from "config"
 
 const url: string = config().SUPABASE_URL;
